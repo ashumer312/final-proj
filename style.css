@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.topper {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.topper h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.column {
+    width: 80%;
+    text-align: center;
+}
+
+.column:first-child {
+    padding-right: 20px;
+}
+
+.column:last-child {
+    padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+    .column {
+        width: 90%;
+    }
+}
+
+.quote {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.quote p {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #333;
+}
+
+.chart {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.caption {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #333;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: #00a0b0;
+}
+
+.topper h1 {
+    color: #ed008c;
+}
+
+.quote p {
+    color: #ed008c;
+}
+
+h2 {
+    color: blue;
+}
